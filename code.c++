@@ -1,16 +1,18 @@
-int buttonPin = 7;
-int ledPin = 10;
-bool estadoLed = false;
-
-void setup() {
-  pinMode(ledPin, OUTPUT);
-  pinMode(buttonPin, INPUT);
+int sensor = 7;
+int led = 6;
+  
+  void setup(){
+pinMode(sensor, INPUT);
+pinMode(led, OUTPUT);
 }
-
-void loop() {
-  if (digitalRead(buttonPin) == HIGH) {
-    estadoLed = !estadoLed;
-    digitalWrite(ledPin, estadoLed);
-    delay(500);
+  
+void loop()
+{
+  if(digitalRead(sensor) == HIGH){
+  digitalWrite(led, HIGH);
+  delay(1000);
+    
+  }  else{
+  digitalWrite(led, LOW);
   }
 }
