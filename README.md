@@ -1,4 +1,4 @@
-# iot-exemplo-repositorio
+# iot-repositorio-sensores
 
 Discente: Natan Vitor Dré Avanço Barbosa
 
