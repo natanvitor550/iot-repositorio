@@ -6,14 +6,14 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve de exemplo para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)]([](https://www.tinkercad.com/things/7FLaqUxHsi0/editel?returnTo=%2Fdashboard))
+[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/7FLaqUxHsi0/editel?returnTo=%2Fdashboard)
 
-## Enunciado: Vamos ligar o LED!
+## Enunciado: Atividade de Sensores.
 
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+O projeto vai utilizar um sensor PIR como entrada para controlar um LED como saída. Ao detectar movimento, o Arduino altera o estado do LED — para liga ou desliga.
 
-- O Arduino lê o estado do botão pelo **pino 7**
-- Controla o LED pelo **pino 10**
+- O Arduino lê o estado do sensor pelo **pino 7**
+- Controla o LED pelo **pino 6**
 
 ## Materiais necessários
 
